@@ -806,7 +806,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
 		});
 	</script>
 	<script>
-		function toggleCheckbox(group, element) {
+function toggleCheckbox(group, element) {
     const checkboxes = document.querySelectorAll(`input[type="checkbox"][name=${group}]`);
     checkboxes.forEach(checkbox => {
         if (checkbox !== element) {
@@ -823,6 +823,7 @@ document.querySelectorAll('input[type="checkbox"]').forEach(input => {
         input.name = 'group2';
     }
 });
+
 	</script>
 </body>
 
